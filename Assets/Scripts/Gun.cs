@@ -27,5 +27,6 @@ public class Gun : MonoBehaviour
         spawnBullet.GetComponent<Rigidbody>().velocity = speed * barrel.forward;
         audioSource.PlayOneShot(audioClip);
         Destroy(spawnBullet, 2);
+        
     }
 }
