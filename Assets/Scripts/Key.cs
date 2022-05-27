@@ -17,7 +17,7 @@ public class Key : MonoBehaviour
         
     }
 
-    public void OnTriggerStay(Collision other)
+    public void OnTriggerStay(Collider other)//LO CAMBIE DE COLLISION A COLLIDER:...
     {
         if(other.gameObject.tag == "Handle")
         {
