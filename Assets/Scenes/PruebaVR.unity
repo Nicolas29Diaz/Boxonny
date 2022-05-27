@@ -165,7 +165,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 3
   m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
   m_FirstHoverEntered:
@@ -696,7 +696,7 @@ Transform:
   m_LocalScale: {x: 0.094985, y: 0.013944, z: 1}
   m_Children: []
   m_Father: {fileID: 745025790}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &70995090
 BoxCollider:
@@ -4949,8 +4949,8 @@ Transform:
   m_LocalPosition: {x: -6.654, y: 0.791, z: -1.41}
   m_LocalScale: {x: 0.84814006, y: 1.5773278, z: 0.067182146}
   m_Children:
-  - {fileID: 70995089}
   - {fileID: 2124952019}
+  - {fileID: 70995089}
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7125,7 +7125,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1447522166}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.521, y: 1.242, z: -1.52}
+  m_LocalPosition: {x: -5.488, y: 1.242, z: -1.52}
   m_LocalScale: {x: 1.4196, y: 2.6401, z: 0.19543487}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9276,11 +9276,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124952018}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3992264, y: 0.2757829, z: 0.86332417}
-  m_LocalScale: {x: 0.158984, y: 0.02333919, z: 1.6737802}
+  m_LocalPosition: {x: 0.3992261, y: 0.1638, z: 0.27}
+  m_LocalScale: {x: 0.15898399, y: 0.02333919, z: 1.6737803}
   m_Children: []
   m_Father: {fileID: 745025790}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2124952020
 MonoBehaviour:
@@ -9299,7 +9299,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 4294967295
+    m_Bits: 2
   m_AttachTransform: {fileID: 0}
   m_KeepSelectedTargetValid: 1
   m_StartingSelectedInteractable: {fileID: 0}
