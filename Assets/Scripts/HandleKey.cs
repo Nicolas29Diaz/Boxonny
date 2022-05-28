@@ -25,7 +25,7 @@ public class HandleKey : MonoBehaviour
         {
             key = true;
             //Destroy(other.gameObject);
-            Debug.Log("Llave entraaaaa");
+            //Debug.Log("Llave entraaaaa");
 
         }
         else
