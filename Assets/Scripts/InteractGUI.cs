@@ -6,13 +6,15 @@ public class InteractGUI : MonoBehaviour
 {
     public float distancia = 2.0f;
     public GameObject text1;
+    public GameObject text2;
     GameObject ultimoReconocido;
     public HandleKey hk;
-
+    bool text;
     // Start is called before the first frame update
     void Start()
     {
         text1.SetActive(false);
+        text2.SetActive(false);
     }
 
     // Update is called once per frame
@@ -34,7 +36,13 @@ public class InteractGUI : MonoBehaviour
 
                 if (hit.collider.tag == "PuertaBloqueada")
                 {
+                    text = false;
+                    SelectedObj(hit.transform);
 
+                }
+                else if (hit.collider.tag == "PuertaPistola")
+                {
+                    text = true;
                     SelectedObj(hit.transform);
                 }
                 else
@@ -67,10 +75,19 @@ public class InteractGUI : MonoBehaviour
     {
         if (ultimoReconocido)
         {
-            text1.SetActive(true);
+            if (text)
+            {
+                text2.SetActive(true);
+            }
+            else
+            {
+                text1.SetActive(true);
+            }
+
         }
         else
         {
+            text2.SetActive(false);
             text1.SetActive(false);
         }
     }
